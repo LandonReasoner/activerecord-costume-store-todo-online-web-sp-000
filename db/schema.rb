@@ -41,4 +41,5 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "closing_date"
     t.string "description"
   end
+
 end

@@ -10,15 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-#ActiveRecord::Schema.define(version: 3) do
-#
-#  create_table "costumes", force: :cascade do |t|
-#    t.string "name"
-#    t.integer "price"
-#    t.integer "size"
-#    t.string "imageurl"
-#    t.datetime "created_at", null: false
-#    t.datetime "updated_at", null: false
-#  end
-#
-#end
+ActiveRecord::Schema.define(version: 3) do
+
+  create_table "costumes", force: :cascade do |t|
+    t.string "name"
+    t.integer "price"
+    t.integer "size"
+    t.string "imageurl"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+end
